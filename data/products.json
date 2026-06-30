@@ -1,0 +1,130 @@
+[
+  {
+    "id": "caju500",
+    "name": "Cajuína Artesanal",
+    "vol": "Garrafa de vidro · 500ml",
+    "img": "assets/img/produto-caju500.jpg",
+    "desc": "A tradicional bebida piauiense, clarificada e sem aditivos. Cor âmbar e sabor autêntico do caju.",
+    "tags": [
+      {
+        "k": "star",
+        "t": "Carro-chefe"
+      }
+    ],
+    "varejo": 10.9,
+    "atacado": 8.0,
+    "caixa": 12,
+    "imgWebp": "assets/img/produto-caju500.webp"
+  },
+  {
+    "id": "caju1l",
+    "name": "Cajuína Artesanal",
+    "vol": "Vidro retornável · 1L",
+    "img": "assets/img/produto-caju1l.jpg",
+    "desc": "Tamanho família em garrafa retornável. A cajuína pura para o consumo do dia a dia.",
+    "tags": [
+      {
+        "k": "star",
+        "t": "Carro-chefe"
+      }
+    ],
+    "varejo": 18.0,
+    "atacado": 13.0,
+    "caixa": 6,
+    "imgWebp": "assets/img/produto-caju1l.webp"
+  },
+  {
+    "id": "caju2l",
+    "name": "Cajuína Artesanal",
+    "vol": "PET · 2L",
+    "img": "assets/img/produto-caju2l.jpg",
+    "desc": "O maior rendimento da nossa cajuína, prática para festas, bares e revenda.",
+    "tags": [],
+    "varejo": 26.0,
+    "atacado": 19.0,
+    "caixa": 6,
+    "imgWebp": "assets/img/produto-caju2l.webp"
+  },
+  {
+    "id": "doce",
+    "name": "Doce de Caju em Calda",
+    "vol": "Pote de vidro · 680g",
+    "img": "assets/img/produto-doce.jpg",
+    "desc": "Cajus inteiros em calda, no ponto certo. Receita caseira que resgata a tradição do sertão.",
+    "tags": [],
+    "varejo": 34.9,
+    "atacado": 25.9,
+    "caixa": 6,
+    "imgWebp": "assets/img/produto-doce.webp"
+  },
+  {
+    "id": "geleia",
+    "name": "Geleia de Caju",
+    "vol": "Pote · 250g",
+    "img": "assets/img/produto-geleia.jpg",
+    "desc": "Geleia fina da polpa do caju, perfeita para pães, torradas e tábuas de queijo.",
+    "tags": [],
+    "varejo": 13.9,
+    "atacado": 9.9,
+    "caixa": 12,
+    "imgWebp": "assets/img/produto-geleia.webp"
+  },
+  {
+    "id": "torrada",
+    "name": "Castanha de Caju Torrada",
+    "vol": "Pacote · 200g",
+    "img": "assets/img/produto-torrada.jpg",
+    "desc": "Amêndoa do caju torrada e levemente salgada. O petisco que todo mundo gosta.",
+    "tags": [
+      {
+        "k": "",
+        "t": "Mais vendido"
+      }
+    ],
+    "varejo": 19.9,
+    "atacado": 14.9,
+    "caixa": 10,
+    "imgWebp": "assets/img/produto-torrada.webp"
+  },
+  {
+    "id": "caramel",
+    "name": "Castanha de Caju Caramelizada",
+    "vol": "Pacote · 200g",
+    "img": "assets/img/produto-caramel.jpg",
+    "desc": "Castanha envolvida em caramelo dourado. Um toque gourmet, doce e crocante.",
+    "tags": [],
+    "varejo": 23.9,
+    "atacado": 17.9,
+    "caixa": 10,
+    "imgWebp": "assets/img/produto-caramel.webp"
+  },
+  {
+    "id": "polpa",
+    "name": "Polpa de Caju Congelada",
+    "vol": "Pacote · 500g",
+    "img": "assets/img/produto-polpa.jpg",
+    "desc": "Polpa pura congelada, sabor do caju o ano inteiro. Ideal para sucos e vitaminas.",
+    "tags": [],
+    "varejo": 9.9,
+    "atacado": 6.9,
+    "caixa": 20,
+    "imgWebp": "assets/img/produto-polpa.webp"
+  },
+  {
+    "id": "vegana",
+    "name": "Carne Vegana de Caju",
+    "vol": "Pacote · 200g · sabor defumado",
+    "img": "assets/img/produto-vegana.jpg",
+    "desc": "Nossa inovação plant-based à base de caju: rica em fibras, sustentável e cheia de sabor.",
+    "tags": [
+      {
+        "k": "new",
+        "t": "Novidade"
+      }
+    ],
+    "varejo": 24.9,
+    "atacado": 18.5,
+    "caixa": 10,
+    "imgWebp": "assets/img/produto-vegana.webp"
+  }
+]

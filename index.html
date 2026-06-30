@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Caju Doce Sertão — A pureza da região, a doçura da tradição</title>
+<meta name="description" content="Cajuína, doces, castanhas, polpa e carne vegana de caju, artesanais e sem conservantes, direto de Corrente — Piauí. Compre para consumo ou revenda no atacado.">
+<meta name="theme-color" content="#e7d6b4">
+
+<link rel="canonical" href="https://HeitorLouzeiro.github.io/caju-doce-sertao/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Caju Doce Sertão — A pureza da região, a doçura da tradição">
+<meta property="og:description" content="Cajuína, doces, castanhas, polpa e carne vegana de caju, artesanais e sem conservantes, direto de Corrente — Piauí.">
+<meta property="og:image" content="assets/img/logo.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" type="image/jpeg" href="assets/img/logo.jpg">
+<link rel="apple-touch-icon" href="assets/img/logo.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yeseva+One&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap bar">
+    <a class="brand" href="#topo">
+      <picture>
+        <source srcset="assets/img/logo.webp" type="image/webp">
+        <img src="assets/img/logo.jpg" alt="Caju Doce Sertão" width="50" height="50">
+      </picture>
+      <span><b>Caju Doce Sertão</b><small>A pureza da região, a doçura da tradição</small></span>
+    </a>
+    <nav class="links">
+      <a href="#produtos">Produtos</a>
+      <a href="#revenda">Revenda</a>
+      <a href="#historia">Nossa história</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <button class="cartbtn" onclick="openCart()" aria-label="Abrir carrinho">
+      🧺 Carrinho <span class="count" id="count">0</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero" id="topo">
+  <div class="wrap hero-grid">
+    <div>
+      <span class="eyebrow">Direto de Corrente · Piauí</span>
+      <h1>O sabor do sertão, <em>do pé de caju</em> até a sua mesa.</h1>
+      <p class="lead">Cajuína, doces, castanhas, polpa e a inovadora carne vegana — tudo artesanal, sem conservantes. Compre para o seu consumo ou peça no atacado para revender com margem.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#produtos">Ver produtos →</a>
+        <a class="btn btn-ghost" href="#revenda">Quero revender</a>
+      </div>
+    </div>
+    <div class="hero-medallion">
+      <div class="stamp">100%<br>artesanal<br>do Piauí</div>
+      <picture>
+        <source srcset="assets/img/logo.webp" type="image/webp">
+        <img src="assets/img/logo.jpg" alt="Selo Caju Doce Sertão" width="380" height="380">
+      </picture>
+    </div>
+  </div>
+</section>
+
+<div class="modebar" id="modo">
+  <div class="wrap">
+    <div>
+      <h3 id="modeTitle">Comprando para consumo próprio</h3>
+      <p id="modeDesc">Preços de varejo, a partir de 1 unidade. Quer revender? Troque para atacado e veja os preços por caixa.</p>
+    </div>
+    <div class="switch" role="group" aria-label="Modo de compra">
+      <button id="btnVarejo" aria-pressed="true" onclick="setMode('varejo')">Consumo<small>Varejo · 1 un</small></button>
+      <button id="btnAtacado" aria-pressed="false" onclick="setMode('atacado')">Revenda<small>Atacado · caixa</small></button>
+    </div>
+  </div>
+</div>
+
+<section class="section" id="produtos">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="ornament"><span>❧</span></div>
+      <h2>Nossa linha do caju</h2>
+      <p>Cada lote é feito à mão, com caju colhido na safra do sul do Piauí. Os preços mudam conforme o modo de compra escolhido acima.</p>
+    </div>
+    <div class="grid" id="grid"></div>
+    <noscript><p>Ative o JavaScript no navegador para ver os produtos e montar seu pedido.</p></noscript>
+  </div>
+</section>
+
+<section class="revenda" id="revenda">
+  <div class="wrap">
+    <span class="eyebrow" style="color:#f0c896">Programa de revenda</span>
+    <h2>Leve o sertão para a sua loja</h2>
+    <p style="max-width:60ch;color:#ecdcbb">Supermercados, mercearias, restaurantes, lojas de produtos naturais e revendedores autônomos: compre por caixa com preço de atacado, margem garantida e produto que conta uma história. Pedido mínimo de revenda: <strong>R$ 250,00</strong>.</p>
+    <div class="perks">
+      <div class="perk"><div class="ic">💰</div><h4>Até 28% off</h4><p>Preço por unidade bem menor que o varejo ao comprar caixas fechadas.</p></div>
+      <div class="perk"><div class="ic">📦</div><h4>Caixas fechadas</h4><p>Logística simples: cada produto tem sua caixa padrão pronta para a prateleira.</p></div>
+      <div class="perk"><div class="ic">🤝</div><h4>Sem exclusividade</h4><p>Você revende livre, com material de divulgação e suporte da nossa equipe.</p></div>
+      <div class="perk"><div class="ic">🌵</div><h4>Marca regional</h4><p>Produto artesanal do Piauí, com apelo de origem que valoriza a sua vitrine.</p></div>
+    </div>
+    <div style="margin-top:30px"><a class="btn btn-primary" href="#produtos" onclick="setMode('atacado')">Ver preços de atacado →</a></div>
+  </div>
+</section>
+
+<section class="section" id="historia">
+  <div class="wrap story">
+    <div class="med">
+      <picture>
+        <source srcset="assets/img/logo.webp" type="image/webp">
+        <img src="assets/img/logo.jpg" alt="Selo Caju Doce Sertão" width="340" height="340">
+      </picture>
+    </div>
+    <div>
+      <span class="eyebrow">Nossa história</span>
+      <h2>Tradição que nasce no sertão</h2>
+      <p>A Caju Doce Sertão nasceu em Corrente, no sul do Piauí, do desejo de transformar o caju da região em produtos que carregam o sabor e o orgulho da terra. Trabalhamos lado a lado com produtores locais, pagando preço justo e aproveitando o fruto inteiro — da polpa à castanha.</p>
+      <p>Tudo é feito de forma artesanal, sem conservantes, preservando a cor e o sabor autênticos do caju. É a pureza da região e a doçura da tradição em cada garrafa, pote e pacote.</p>
+      <div class="vals">
+        <div class="val"><b>0</b><span>conservantes</span></div>
+        <div class="val"><b>9</b><span>produtos do caju</span></div>
+        <div class="val"><b>100%</b><span>origem Piauí</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer id="contato">
+  <div class="wrap">
+    <div class="cols">
+      <div>
+        <h4>Caju Doce Sertão</h4>
+        <p>A pureza da região, a doçura da tradição.</p>
+        <p>Produtos artesanais derivados do caju, feitos em Corrente — Piauí.</p>
+        <div class="pays">
+          <span>Pix</span><span>Cartão</span><span>Dinheiro</span><span>Boleto (atacado)</span>
+        </div>
+      </div>
+      <div>
+        <h4>Loja da fábrica</h4>
+        <p>Rua Desembargador Amaral, nº 450</p>
+        <p>Centro — Corrente, PI</p>
+        <p>Seg a Sáb · 8h às 18h</p>
+      </div>
+      <div>
+        <h4>Fale com a gente</h4>
+        <p><a href="#" onclick="openWhats('Olá! Vim pelo site e gostaria de mais informações.');return false;">WhatsApp Business</a></p>
+        <p><a href="#produtos">Fazer um pedido</a></p>
+        <p><a href="#revenda">Seja um revendedor</a></p>
+        <p>@cajudocesertao</p>
+      </div>
+    </div>
+    <div class="copy">© <span id="yr"></span> Caju Doce Sertão · Corrente — PI · Feito à mão no sertão piauiense</div>
+  </div>
+</footer>
+
+<!-- carrinho -->
+<div class="overlay" id="overlay" onclick="closeCart()"></div>
+<aside class="drawer" id="drawer" aria-label="Carrinho de compras">
+  <div class="drawer-head">
+    <h3>Seu pedido <span class="mode-pill" id="cartMode">Varejo</span></h3>
+    <button class="x" onclick="closeCart()" aria-label="Fechar">×</button>
+  </div>
+  <div class="items" id="items"></div>
+  <div class="drawer-foot">
+    <div class="totrow"><span id="unitsLabel">Itens</span><span id="units">0</span></div>
+    <div class="totrow grand"><span>Total</span><span id="total">R$ 0,00</span></div>
+    <div class="minwarn" id="minwarn"></div>
+    <button class="checkout" id="checkout" onclick="checkout()" disabled>📲 Finalizar pelo WhatsApp</button>
+    <div class="payhint">Você confirma o pedido pelo WhatsApp. Pagamento por Pix, cartão ou dinheiro.</div>
+  </div>
+</aside>
+
+<div class="toast" id="toast"></div>
+
+<script src="js/app.js" defer></script>
+</body>
+</html>
