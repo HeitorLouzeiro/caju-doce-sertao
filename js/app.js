@@ -1,5 +1,5 @@
 // Caju Doce Sertão — lógica da vitrine, modo varejo/atacado e carrinho via WhatsApp
-const WHATS = "5589999990000"; // << troque pelo número real da Caju Doce Sertão (com DDI 55 + DDD)
+const WHATS = "558999971860"; // << troque pelo número real da Caju Doce Sertão (com DDI 55 + DDD)
 const MIN_ATACADO = 250;
 const PRODUCTS_URL = "data/products.json";
 
